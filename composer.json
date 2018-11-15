@@ -1,0 +1,21 @@
+{
+    "name": "lukaszkolodziejczak/screenplay-framework",
+    "authors": [
+        {
+            "name": "lkolodziejczak",
+            "email": "l.kolodziejcak@i-systems.pl"
+        }
+    ],
+    "require": {
+        "facebook/webdriver": "^1.6",
+        "monolog/monolog": "^1.24",
+        "psr/log": "^1.0",
+        "webmozart/assert": "^1.3",
+        "symfony/event-dispatcher": "^4.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Framework\\": "src/"
+        }
+    }
+}
